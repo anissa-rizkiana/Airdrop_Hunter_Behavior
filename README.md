@@ -82,7 +82,7 @@ Hands-on participation to identify:
 
 ---
 
-### Stage 2 — Survey (In Progress)
+### Stage 2 — Survey
 
 Collecting data from:
 
@@ -249,7 +249,7 @@ Instead:
 
 * ~1 month observation period
 * single-user experience (me)
-* survey data 
+* small survey data 
 
 ---
 
