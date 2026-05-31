@@ -249,7 +249,7 @@ Instead:
 
 * ~1 month observation period
 * single-user experience (me)
-* survey data still in progress
+* survey data 
 
 ---
 
@@ -275,11 +275,10 @@ Understanding that gap is key to:
 
 ---
 
-## 🛠️ Tech Stack
-
+## Tools & Documentati
 * SQL (MySQL)
 * Tableau (dashboard)
-* Notion (research documentation)
+* Notion (research documentation): [Read the full research here](https://anissarizkiana.notion.site/Exploring-Reward-Friction-in-Web3-Creator-Platforms-A-Small-Creator-Perspective-315b5cfa938f80fc9385f620da16fc1e?source=copy_link)
 
 ---
 
