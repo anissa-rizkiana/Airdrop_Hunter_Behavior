@@ -19,12 +19,12 @@ ORDER BY total DESC;
 
 SELECT
     reward_preference,
-    COUNT(f.frustration) AS frustration_count,
-    COUNT(*) AS total_users
+    COUNT(DISTINCT f.id) AS frustrated_users,
+    COUNT(DISTINCT a.id) AS total_users
 FROM airdrop_raw_copy a
-LEFT JOIN frustration_normalized f ON a.id = f.id
-GROUP BY reward_preference
-ORDER BY frustration_count DESC;
+LEFT JOIN frustration_normalized f
+    ON a.id = f.id
+GROUP BY reward_preference;
 
 -- Hypothesis 3: Participation intensity and campaign structure may influence creator frustration levels.
 
