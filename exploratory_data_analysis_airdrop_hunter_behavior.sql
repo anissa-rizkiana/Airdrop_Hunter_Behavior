@@ -28,10 +28,10 @@ GROUP BY reward_preference;
 
 -- Hypothesis 3: Participation intensity and campaign structure may influence creator frustration levels.
 
--- 1. Weekly Hours vs Frustration
+-- 1. Weekly Hours Spent Distribution
+
 SELECT
     weekly_hours_spent,
-    AVG(has_frustration) AS frustration_ratio,
     COUNT(*) AS total_users
 FROM (
     SELECT
