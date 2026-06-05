@@ -48,11 +48,10 @@ FROM (
 ) t
 GROUP BY weekly_hours_spent;
 
--- 2. Activity Types vs Frustration
+-- 2. Activity Types Distribution
 
 SELECT
     at.activity_type,
-    AVG(t.has_frustration) AS frustration_ratio,
     COUNT(DISTINCT t.id) AS total_users
 FROM activity_types_normalized at
 JOIN (
@@ -69,11 +68,10 @@ JOIN (
 ) t ON at.id = t.id
 GROUP BY at.activity_type;
 
--- 3. Duration vs Frustration
+-- 3. Duration Distribution
 
 SELECT
     participation_duration,
-    AVG(has_frustration) AS frustration_ratio,
     COUNT(*) AS total_users
 FROM (
     SELECT
