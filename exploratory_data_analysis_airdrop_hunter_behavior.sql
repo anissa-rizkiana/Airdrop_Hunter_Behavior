@@ -90,27 +90,6 @@ GROUP BY participation_duration;
 
 -- Hypothesis 4: Even when rewards are smaller, platforms with higher approval probability may be perceived as more rational for consistent participation.
 
--- Reward vs Frustration
-
-SELECT
-    reward_preference,
-    AVG(has_frustration) AS frustration_ratio,
-    COUNT(*) AS total_users
-FROM (
-    SELECT
-        a.id,
-        a.reward_preference,
-        CASE 
-            WHEN f.id IS NOT NULL THEN 1
-            ELSE 0
-        END AS has_frustration
-    FROM airdrop_raw_copy a
-    LEFT JOIN (
-        SELECT DISTINCT id FROM frustration_normalized
-    ) f ON a.id = f.id
-) t
-GROUP BY reward_preference;
-
 -- Fairness
 
 SELECT
