@@ -3,7 +3,7 @@ Here’s a clean, professional (but still personal) **GitHub README.md** you can
 
 ---
 
-# 🧠 Airdrop Hunter Behavior in Web3 Creator Reward Platforms
+# 🧠 Rewards, Effort, and Uncertainty: An Exploratory Analysis of Web3 Creator Participation
 
 An exploratory + quantitative research project analyzing how reward structures and participation friction influence small creators in Web3 ecosystems.
 
@@ -33,10 +33,10 @@ This research explores the gap between **platform promises vs real participation
 
 ## 💡 Hypothesis
 
-1. Clear instructions + predictable approvals → more attractive platforms
-2. High rewards + low approval consistency → discouraging long-term participation
-3. Account size & engagement affect success rate
-4. Smaller but predictable rewards → more rational for consistent participation
+1. Platforms with **clear campaign instructions and predictable approval processes** are more attractive for small creators.
+2. Platforms that promise **higher rewards but have low approval consistency** may discourage long-term participation.
+3. Structural participation patterns provide context for understanding participation experiences among Web3 creators.
+4. Even when rewards are smaller, platforms with **higher approval probability** may be perceived as more rational for consistent participation.
 
 ---
 
@@ -202,14 +202,18 @@ Key areas:
 
 ---
 
-## 📊 Dashboard (In Progress)
+## 📊 Dashboard 
 
 Planned visualization:
 
-* effort vs reward preference
-* approval probability perception
-* participation friction mapping
-* behavioral segmentation
+* Avg Transparency Score
+* Total Participants
+* Top Frustrations (Active Participants)
+* Frustration Count by Reward Preference
+* Weekly Hours Spent Distribution
+* Activity Types Distribution
+* Duration Distribution
+* Fairness Perception by Reward Preference
 
 ---
 
@@ -277,8 +281,8 @@ Understanding that gap is key to:
 
 ## Tools & Documentation
 * SQL (MySQL)
-* Tableau (dashboard)
-* Notion (research documentation): [Read the full research here](https://anissarizkiana.notion.site/Exploring-Reward-Friction-in-Web3-Creator-Platforms-A-Small-Creator-Perspective-315b5cfa938f80fc9385f620da16fc1e?source=copy_link)
+* Tableau (dashboard): [See the dashboard here] ([https://public.tableau.com/views/AirdropHunterBehavior/WhatDrivesParticipationinWeb3CreatorPlatforms?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+* Notion (research documentation): [Read the full research here]([https://anissarizkiana.notion.site/Exploring-Reward-Friction-in-Web3-Creator-Platforms-A-Small-Creator-Perspective-315b5cfa938f80fc9385f620da16fc1e?source=copy_link](https://anissarizkiana.notion.site/Rewards-Effort-and-Uncertainty-An-Exploratory-Analysis-of-Web3-Creator-Participation-375b5cfa938f80a690abec5a3a585ff5?source=copy_link))
 
 ---
 
