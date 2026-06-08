@@ -1,4 +1,3 @@
-# Airdrop_Hunter_Behavior
 Here’s a clean, professional (but still personal) **GitHub README.md** you can use for your airdrop hunter behavior research. I kept your tone slightly analytical but still “you,” not overly corporate.
 
 ---
