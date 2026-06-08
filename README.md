@@ -279,10 +279,13 @@ Understanding that gap is key to:
 
 ---
 
-## Tools & Documentation
-* SQL (MySQL)
-* Tableau (dashboard): [See the dashboard here] ([https://public.tableau.com/views/AirdropHunterBehavior/WhatDrivesParticipationinWeb3CreatorPlatforms?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
-* Notion (research documentation): [Read the full research here]([https://anissarizkiana.notion.site/Exploring-Reward-Friction-in-Web3-Creator-Platforms-A-Small-Creator-Perspective-315b5cfa938f80fc9385f620da16fc1e?source=copy_link](https://anissarizkiana.notion.site/Rewards-Effort-and-Uncertainty-An-Exploratory-Analysis-of-Web3-Creator-Participation-375b5cfa938f80a690abec5a3a585ff5?source=copy_link))
+## Project Deliverables
+
+📊 **Dashboard:**  
+[View Interactive Tableau Dashboard](https://public.tableau.com/views/AirdropHunterBehavior/WhatDrivesParticipationinWeb3CreatorPlatforms?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+📄 **Full Research Report:**  
+[Read the Complete Analysis on Notion](https://anissarizkiana.notion.site/Rewards-Effort-and-Uncertainty-An-Exploratory-Analysis-of-Web3-Creator-Participation-375b5cfa938f80a690abec5a3a585ff5?source=copy_link)
 
 ---
 
